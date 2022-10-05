@@ -73,7 +73,6 @@ TODO: Softmax have bugs, Conv layers
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -89,7 +88,7 @@ TODO: Softmax have bugs, Conv layers
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This repository is my implementation of neural network from scratch in C++. It achieves up to 80% accuracy on the [MNIST Dataset](http://yann.lecun.com/exdb/mnist/), although it take some time to train the model on the full dataset on CPU for the complete dataset. Some optimization is still necessary. Furthermore, the Softmax activation function still needs implementation. It could also benefit from the advantages of convolutional layers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +96,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![C++][C++.js][C++-url]
+* [![C++][C++.js]][C++-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,55 +105,57 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+As prerequisites, you'll need an instalation of C++ 11 and cmake. To read images, you'll need to install open-cv for C++ ([opencv for c++](https://docs.opencv.org/4.x/d0/db2/tutorial_macos_install.html)). Furthermore, you can download the MNIST dataset and change the path to the folder in the `main.cpp` file. The easiest way I found was with [this repo](https://github.com/teavanist/MNIST-JPG).
+
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+After installing open-cv, you can run the project:
+
+1. Clone the repo
    ```sh
    git clone https://github.com/Maxlanglet/Neural-Networks-from-scratch-in-C-.git
    ```
-3. Install NPM packages
+2. Go into the repo
    ```sh
-   npm install
+   cd path/to/folder
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run cmake (delete and modify files if necessary)
+   ```sh
+   cmake .
+   ```
+4. Run the program
+   ```sh
+   clear && make && ./main
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
+<!--USAGE EXAMPLES
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Currently, the program doesn't save the models. Hence, the usage is not curreb-b--
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Finish Softmax and correct bug
+- [ ] Add conv layer
+- [ ] Saving models
+- [ ] Optimize more
 
 See the [open issues](https://github.com/Maxlanglet/Neural-Network-from-scratch-in-C-/issues) for a full list of proposed features (and known issues).
 
@@ -165,15 +166,15 @@ See the [open issues](https://github.com/Maxlanglet/Neural-Network-from-scratch-
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are more than welcome, feel free to add some features, correct and improve the code to your liking. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Don't forget to give the project a star!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/your-branch`)
+3. Commit your Changes (`git commit -m 'Add some Feature'`)
+4. Push to the Branch (`git push origin feature/your-branch`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -204,6 +205,7 @@ Project Link: [Neural Networks from scratch in C++](https://github.com/Maxlangle
 ## Acknowledgments
 
 * [Sebastien Lague](https://www.youtube.com/watch?v=hfMk-kjRv4c)
+* [othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
