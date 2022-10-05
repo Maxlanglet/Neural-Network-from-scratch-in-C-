@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libImage_Reader.a CMakeFiles/Image_Reader.dir/Image_Reader.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libImage_Reader.a

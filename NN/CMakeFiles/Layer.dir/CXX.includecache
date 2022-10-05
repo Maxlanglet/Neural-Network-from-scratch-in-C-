@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Layer.cpp
+Layer.hpp
+/Users/langletmaxime/Desktop/NN_C++/NN/Layer.hpp
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Layer.hpp
+iostream
+-
+math.h
+-
+

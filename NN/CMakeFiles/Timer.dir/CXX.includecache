@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Timer.cpp
+Timer.hpp
+/Users/langletmaxime/Desktop/NN_C++/NN/Timer.hpp
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Timer.hpp
+chrono
+-
+stdio.h
+-
+iostream
+-
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libTimer.a CMakeFiles/Timer.dir/Timer.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libTimer.a

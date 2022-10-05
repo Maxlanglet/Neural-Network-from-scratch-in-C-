@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libPath_Loader.a CMakeFiles/Path_Loader.dir/Path_Loader.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libPath_Loader.a

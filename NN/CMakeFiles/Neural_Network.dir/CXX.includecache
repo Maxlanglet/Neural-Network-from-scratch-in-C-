@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Layer.hpp
+iostream
+-
+math.h
+-
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Neural_Network.cpp
+Neural_Network.hpp
+/Users/langletmaxime/Desktop/NN_C++/NN/Neural_Network.hpp
+Timer.hpp
+/Users/langletmaxime/Desktop/NN_C++/NN/Timer.hpp
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Neural_Network.hpp
+iostream
+-
+vector
+-
+Layer.hpp
+/Users/langletmaxime/Desktop/NN_C++/NN/Layer.hpp
+
+/Users/langletmaxime/Desktop/NN_C++/NN/Timer.hpp
+chrono
+-
+stdio.h
+-
+iostream
+-
+

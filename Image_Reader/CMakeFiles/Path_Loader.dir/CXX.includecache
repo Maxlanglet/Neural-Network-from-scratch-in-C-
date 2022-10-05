@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/langletmaxime/Desktop/NN_C++/Image_Reader/Path_Loader.cpp
+Path_Loader.hpp
+/Users/langletmaxime/Desktop/NN_C++/Image_Reader/Path_Loader.hpp
+
+/Users/langletmaxime/Desktop/NN_C++/Image_Reader/Path_Loader.hpp
+iostream
+-
+filesystem
+-
+stdio.h
+-
+vector
+-
+
