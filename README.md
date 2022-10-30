@@ -38,10 +38,10 @@ TODO: Softmax have bugs, Conv layers
     <img src="images/nn.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Neural Networks from scratch in C++</h3>
 
   <p align="center">
-    project_description
+    Implementation from scratch in C++ of Neural Networks, with efficiency and speed in mind.
     <br />
     <a href="https://github.com/Maxlanglet/Neural-Network-from-scratch-in-C-"><strong>Explore the docs »</strong></a>
     <br />
